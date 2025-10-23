@@ -1,44 +1,46 @@
-# movie-app
+# Aplikasi Pencari Film (Vue.js 3 Movie App)
 
-This template should help get you started developing with Vue 3 in Vite.
+Ini adalah aplikasi web pencari film yang dibuat menggunakan Vue.js 3 (Composition API) dan mengambil data dari API publik The Movie Database (TMDB).
 
-## Recommended IDE Setup
+Proyek ini dibuat sebagai portofolio untuk mendemonstrasikan keahlian *front-end development* dalam membangun aplikasi yang dinamis, responsif, dan terhubung dengan RESTful API.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### 🔗 **Live Demo: [pencarian-film.netlify.app](https://pencarian-film.netlify.app)**
 
-## Recommended Browser Setup
+---
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+### 📸 Tampilan Aplikasi
 
-## Customize configuration
+![Tampilan Aplikasi Pencari Film]<img width="1900" height="862" alt="Image" src="https://github.com/user-attachments/assets/f7650e3d-f99e-4567-bb77-2116a6b0fcc3" />
 
-See [Vite Configuration Reference](https://vite.dev/config/).
 
-## Project Setup
+---
 
-```sh
-npm install
-```
+## 🌟 Fitur Utama
 
-### Compile and Hot-Reload for Development
+* **Film Terpopuler:** Menampilkan daftar film terpopuler saat ini saat halaman pertama kali dimuat.
+* **Fitur Pencarian:** Memungkinkan pengguna mencari film berdasarkan judul. Hasil akan diperbarui secara dinamis.
+* **Halaman Detail:** Setiap film dapat diklik untuk menampilkan halaman detail yang berisi sinopsis, rating, tanggal rilis, dan poster yang lebih besar.
+* **Routing Dinamis:** Menggunakan Vue Router untuk mengelola navigasi antar halaman (Daftar Film dan Detail Film).
+* **Desain Responsif:** Tampilan yang beradaptasi dengan baik di perangkat *desktop* maupun *mobile* (menggunakan Bootstrap 5).
 
-```sh
-npm run dev
-```
+---
 
-### Compile and Minify for Production
+## 🛠️ Teknologi yang Digunakan
 
-```sh
-npm run build
-```
+Proyek ini dibuat dengan *stack* teknologi modern yang relevan dengan kebutuhan industri:
 
-### Lint with [ESLint](https://eslint.org/)
+* **Framework:** [Vue.js 3](https://vuejs.org/) (Composition API)
+* **Routing:** [Vue Router 4](https://router.vuejs.org/)
+* **Data Fetching:** [Axios](https://axios-http.com/) (untuk interaksi dengan RESTful API)
+* **Styling:**
+    * [Bootstrap 5](https://getbootstrap.com/) (Sebagai CSS Framework utama)
+    * [SASS/SCSS](https://sass-lang.com/) (Untuk *styling* kustom)
+* **Build Tool:** [Vite](https://vitejs.dev/)
+* **Deployment:** [Netlify](https://www.netlify.com/)
+* **Version Control:** Git & GitHub
 
-```sh
-npm run lint
-```
+---
+
+## 🙏 Apresiasi
+
+Proyek ini menggunakan data dan gambar yang disediakan oleh [The Movie Database (TMDB) API](https://www.themoviedb.org/documentation/api).
